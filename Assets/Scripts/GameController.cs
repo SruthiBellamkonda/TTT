@@ -148,9 +148,16 @@ public class GameController : MonoBehaviour
     {
         moveCount++;
 
-
-
-        if (buttonList[0].text == playerSide && buttonList[1].text == playerSide && buttonList[2].text == playerSide)
+        for(int i=0;i<=6;i++)
+        {
+            if(i%3==0)
+            {
+                if (buttonList[i].text == playerSide && buttonList[i+1].text == playerSide && buttonList[i+2].text == playerSide)
+                {
+                    GameOver(playerSide);
+                }
+            }
+        }       /*if (buttonList[0].text == playerSide && buttonList[1].text == playerSide && buttonList[2].text == playerSide)
         {
             GameOver(playerSide);
         }
@@ -161,8 +168,15 @@ public class GameController : MonoBehaviour
         else if (buttonList[6].text == playerSide && buttonList[7].text == playerSide && buttonList[8].text == playerSide)
         {
             GameOver(playerSide);
+        }*/
+        for(int i=0;i<3;i++)
+        {
+            if (buttonList[i].text == playerSide && buttonList[i+3].text == playerSide && buttonList[i+6].text == playerSide)
+            {
+                GameOver(playerSide);
+            }
         }
-        else if (buttonList[0].text == playerSide && buttonList[3].text == playerSide && buttonList[6].text == playerSide)
+        /*if (buttonList[0].text == playerSide && buttonList[3].text == playerSide && buttonList[6].text == playerSide)
         {
             GameOver(playerSide);
         }
@@ -173,8 +187,8 @@ public class GameController : MonoBehaviour
         else if (buttonList[2].text == playerSide && buttonList[5].text == playerSide && buttonList[8].text == playerSide)
         {
             GameOver(playerSide);
-        }
-        else if (buttonList[0].text == playerSide && buttonList[4].text == playerSide && buttonList[8].text == playerSide)
+        }*/
+        if (buttonList[0].text == playerSide && buttonList[4].text == playerSide && buttonList[8].text == playerSide)
         {
             GameOver(playerSide);
         }
@@ -186,7 +200,7 @@ public class GameController : MonoBehaviour
 
 
 
-        else if (buttonList[0].text == computerSide && buttonList[1].text == computerSide && buttonList[2].text == computerSide)
+        /*else if (buttonList[0].text == computerSide && buttonList[1].text == computerSide && buttonList[2].text == computerSide)
         {
             GameOver(computerSide);
         }
@@ -209,8 +223,25 @@ public class GameController : MonoBehaviour
         else if (buttonList[2].text == computerSide && buttonList[5].text == computerSide && buttonList[8].text == computerSide)
         {
             GameOver(computerSide);
+        }*/
+        for (int i = 0; i <= 6; i++)
+        {
+            if (i % 3 == 0)
+            {
+                if (buttonList[i].text == computerSide && buttonList[i + 1].text == computerSide && buttonList[i + 2].text == computerSide)
+                {
+                    GameOver(playerSide);
+                }
+            }
         }
-        else if (buttonList[0].text == computerSide && buttonList[4].text == computerSide && buttonList[8].text == computerSide)
+        for (int i = 0; i < 3; i++)
+        {
+            if (buttonList[i].text == computerSide && buttonList[i + 3].text == computerSide && buttonList[i + 6].text == computerSide)
+            {
+                GameOver(playerSide);
+            }
+        }
+        if (buttonList[0].text == computerSide && buttonList[4].text == computerSide && buttonList[8].text == computerSide)
         {
             GameOver(computerSide);
         }
