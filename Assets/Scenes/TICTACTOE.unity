@@ -128,6 +128,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2031132564}
     m_Modifications:
+    - target: {fileID: -7925924887353189397, guid: 40fc73dad2cd949498daba8d57771508,
+        type: 3}
+      propertyPath: gameController
+      value: 
+      objectReference: {fileID: 1909942002}
     - target: {fileID: 8137250996924587052, guid: 40fc73dad2cd949498daba8d57771508,
         type: 3}
       propertyPath: m_Name
@@ -243,6 +248,11 @@ PrefabInstance:
       propertyPath: m_Interactable
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8137250996924587054, guid: 40fc73dad2cd949498daba8d57771508,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetSpace
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40fc73dad2cd949498daba8d57771508, type: 3}
 --- !u!1001 &98048089
@@ -252,6 +262,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2031132564}
     m_Modifications:
+    - target: {fileID: -7925924887353189397, guid: 40fc73dad2cd949498daba8d57771508,
+        type: 3}
+      propertyPath: gameController
+      value: 
+      objectReference: {fileID: 1909942002}
     - target: {fileID: 8137250996924587052, guid: 40fc73dad2cd949498daba8d57771508,
         type: 3}
       propertyPath: m_Name
@@ -367,6 +382,11 @@ PrefabInstance:
       propertyPath: m_Interactable
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8137250996924587054, guid: 40fc73dad2cd949498daba8d57771508,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetSpace
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40fc73dad2cd949498daba8d57771508, type: 3}
 --- !u!1 &166289478
@@ -480,6 +500,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2031132564}
     m_Modifications:
+    - target: {fileID: -7925924887353189397, guid: 40fc73dad2cd949498daba8d57771508,
+        type: 3}
+      propertyPath: gameController
+      value: 
+      objectReference: {fileID: 1909942002}
     - target: {fileID: 8137250996924587052, guid: 40fc73dad2cd949498daba8d57771508,
         type: 3}
       propertyPath: m_Name
@@ -594,6 +619,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Interactable
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137250996924587054, guid: 40fc73dad2cd949498daba8d57771508,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetSpace
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40fc73dad2cd949498daba8d57771508, type: 3}
@@ -794,6 +824,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2031132564}
     m_Modifications:
+    - target: {fileID: -7925924887353189397, guid: 40fc73dad2cd949498daba8d57771508,
+        type: 3}
+      propertyPath: gameController
+      value: 
+      objectReference: {fileID: 1909942002}
     - target: {fileID: 8137250996924587052, guid: 40fc73dad2cd949498daba8d57771508,
         type: 3}
       propertyPath: m_Name
@@ -908,6 +943,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Interactable
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137250996924587054, guid: 40fc73dad2cd949498daba8d57771508,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetSpace
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40fc73dad2cd949498daba8d57771508, type: 3}
@@ -1384,6 +1424,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2031132564}
     m_Modifications:
+    - target: {fileID: -7925924887353189397, guid: 40fc73dad2cd949498daba8d57771508,
+        type: 3}
+      propertyPath: gameController
+      value: 
+      objectReference: {fileID: 1909942002}
     - target: {fileID: 8137250996924587052, guid: 40fc73dad2cd949498daba8d57771508,
         type: 3}
       propertyPath: m_Name
@@ -1499,6 +1544,11 @@ PrefabInstance:
       propertyPath: m_Interactable
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8137250996924587054, guid: 40fc73dad2cd949498daba8d57771508,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetSpace
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40fc73dad2cd949498daba8d57771508, type: 3}
 --- !u!224 &1159339770 stripped
@@ -1589,7 +1639,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1909942002}
-        m_MethodName: SetstartingSide
+        m_MethodName: SetStartingSide
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1876,7 +1926,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1909942002}
-        m_MethodName: SetstartingSide
+        m_MethodName: SetStartingSide
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2081,6 +2131,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2031132564}
     m_Modifications:
+    - target: {fileID: -7925924887353189397, guid: 40fc73dad2cd949498daba8d57771508,
+        type: 3}
+      propertyPath: gameController
+      value: 
+      objectReference: {fileID: 1909942002}
     - target: {fileID: 8137250996924587052, guid: 40fc73dad2cd949498daba8d57771508,
         type: 3}
       propertyPath: m_Name
@@ -2196,6 +2251,16 @@ PrefabInstance:
       propertyPath: m_Interactable
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8137250996924587054, guid: 40fc73dad2cd949498daba8d57771508,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetSpace
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137250998082967136, guid: 40fc73dad2cd949498daba8d57771508,
+        type: 3}
+      propertyPath: m_Name
+      value: Text2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40fc73dad2cd949498daba8d57771508, type: 3}
 --- !u!114 &1784298978 stripped
@@ -2217,6 +2282,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2031132564}
     m_Modifications:
+    - target: {fileID: -7925924887353189397, guid: 40fc73dad2cd949498daba8d57771508,
+        type: 3}
+      propertyPath: gameController
+      value: 
+      objectReference: {fileID: 1909942002}
     - target: {fileID: 8137250996924587052, guid: 40fc73dad2cd949498daba8d57771508,
         type: 3}
       propertyPath: m_Name
@@ -2331,6 +2401,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Interactable
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137250996924587054, guid: 40fc73dad2cd949498daba8d57771508,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetSpace
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40fc73dad2cd949498daba8d57771508, type: 3}
@@ -2461,8 +2536,7 @@ MonoBehaviour:
   - {fileID: 1978153416}
   gameOverPanel: {fileID: 1538115949}
   gameOverText: {fileID: 764062498}
-  restartbutton: {fileID: 2027634408}
-  startinfo: {fileID: 779178570}
+  restartButton: {fileID: 2027634408}
   playerX:
     panel: {fileID: 1718430337}
     text: {fileID: 2130202652}
@@ -2477,6 +2551,9 @@ MonoBehaviour:
   inactivePlayerColor:
     panelColor: {r: 0.12941177, g: 0.17254902, b: 0.21568628, a: 1}
     textColor: {r: 0, g: 0.8, b: 0.8, a: 1}
+  startInfo: {fileID: 779178570}
+  playerMove: 1
+  delay: 10
 --- !u!4 &1909942003
 Transform:
   m_ObjectHideFlags: 0
@@ -2746,7 +2823,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1909942002}
-        m_MethodName: Restart
+        m_MethodName: RestartGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2938,6 +3015,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2031132564}
     m_Modifications:
+    - target: {fileID: -7925924887353189397, guid: 40fc73dad2cd949498daba8d57771508,
+        type: 3}
+      propertyPath: gameController
+      value: 
+      objectReference: {fileID: 1909942002}
     - target: {fileID: 8137250996924587052, guid: 40fc73dad2cd949498daba8d57771508,
         type: 3}
       propertyPath: m_Name
@@ -3053,6 +3135,16 @@ PrefabInstance:
       propertyPath: m_Interactable
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8137250996924587054, guid: 40fc73dad2cd949498daba8d57771508,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetSpace
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137250998082967136, guid: 40fc73dad2cd949498daba8d57771508,
+        type: 3}
+      propertyPath: m_Name
+      value: Text3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40fc73dad2cd949498daba8d57771508, type: 3}
 --- !u!1 &2130202650
@@ -3146,6 +3238,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2031132564}
     m_Modifications:
+    - target: {fileID: -7925924887353189397, guid: 40fc73dad2cd949498daba8d57771508,
+        type: 3}
+      propertyPath: gameController
+      value: 
+      objectReference: {fileID: 1909942002}
     - target: {fileID: 8137250996924587052, guid: 40fc73dad2cd949498daba8d57771508,
         type: 3}
       propertyPath: m_Name
@@ -3260,6 +3357,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Interactable
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137250996924587054, guid: 40fc73dad2cd949498daba8d57771508,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetSpace
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137250998082967136, guid: 40fc73dad2cd949498daba8d57771508,
+        type: 3}
+      propertyPath: m_Name
+      value: Text1
       objectReference: {fileID: 0}
     - target: {fileID: 8137250998082967138, guid: 40fc73dad2cd949498daba8d57771508,
         type: 3}
