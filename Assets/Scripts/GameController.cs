@@ -230,7 +230,7 @@ public class GameController : MonoBehaviour
             {
                 if (buttonList[i].text == computerSide && buttonList[i + 1].text == computerSide && buttonList[i + 2].text == computerSide)
                 {
-                    GameOver(playerSide);
+                    GameOver(computerSide);
                 }
             }
         }
@@ -238,7 +238,7 @@ public class GameController : MonoBehaviour
         {
             if (buttonList[i].text == computerSide && buttonList[i + 3].text == computerSide && buttonList[i + 6].text == computerSide)
             {
-                GameOver(playerSide);
+                GameOver(computerSide);
             }
         }
         if (buttonList[0].text == computerSide && buttonList[4].text == computerSide && buttonList[8].text == computerSide)
