@@ -142,7 +142,14 @@ public class GameController : MonoBehaviour
         return computerSide;
     }
 
-
+    public void Optimiser(int v1,int v2,int v3,string side)
+    {
+        if (buttonList[v1].text == side && buttonList[v2].text == side && buttonList[v3].text == side)
+        {
+            GameOver(side);
+            
+        }
+    }
 
     public void EndTurn()
     {
@@ -153,7 +160,7 @@ public class GameController : MonoBehaviour
             if(i%3==0)//Row
             {
                 //i=0,i=3,i=6
-                if (buttonList[i].text == playerSide && buttonList[i+1].text == playerSide && buttonList[i+2].text == playerSide)
+                /*if (buttonList[i].text == playerSide && buttonList[i+1].text == playerSide && buttonList[i+2].text == playerSide)
                 {
                     GameOver(playerSide);
                     //counter = false;
@@ -162,12 +169,14 @@ public class GameController : MonoBehaviour
                 {
                     GameOver(computerSide);
                     //counter = false;
-                }
+                }*/
+                Optimiser(i,i+1,i+2,playerSide);
+                Optimiser(i, i + 1, i + 2, computerSide);
             }
             if (i < 3)//Column
             {
                 //i=0,i=1,i=2
-                if (buttonList[i].text == playerSide && buttonList[i + 3].text == playerSide && buttonList[i + 6].text == playerSide)
+                /*if (buttonList[i].text == playerSide && buttonList[i + 3].text == playerSide && buttonList[i + 6].text == playerSide)
                 {
                     GameOver(playerSide);
                     //counter = false;
@@ -176,11 +185,16 @@ public class GameController : MonoBehaviour
                 {
                     GameOver(computerSide);
                     //counter = false;
-                }
+                }*/
+                Optimiser(i, i + 3, i + 6, playerSide);
+                Optimiser(i, i + 3, i + 6, computerSide);
             }
-        }       
-                
-        if (buttonList[0].text == playerSide && buttonList[4].text == playerSide && buttonList[8].text == playerSide)
+        }
+        Optimiser(0, 4, 8, playerSide);
+        Optimiser(0, 4, 8, computerSide);
+        Optimiser(2, 4, 6, playerSide);
+        Optimiser(2, 4, 6, computerSide);
+        /*if (buttonList[0].text == playerSide && buttonList[4].text == playerSide && buttonList[8].text == playerSide)
         {
             GameOver(playerSide);//Left-diagonal
             //counter = false;
@@ -200,8 +214,8 @@ public class GameController : MonoBehaviour
             GameOver(computerSide);//Right-diagonal
             //counter = false;
 
-        }
-        else if (moveCount >= 9)
+        }*/
+        if (moveCount >= 9)
         {
             if (counter!=false)
             GameOver("Draw");
